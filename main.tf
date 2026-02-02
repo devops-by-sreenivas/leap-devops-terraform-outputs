@@ -14,8 +14,8 @@ locals {
   position_title  = "Senior DevOps Engineer"
 }
 
-output "applicant_name" {
-  description = "Full name of the applicant"
+output "name" {
+  description = "Applicant full name"
   value       = local.applicant_name
 }
 
